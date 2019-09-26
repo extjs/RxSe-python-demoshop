@@ -1,0 +1,10 @@
+{
+  "defaultTestName": "test_new",
+  "pageObjectFolder": "pageobjects",
+  "projectName": "python-demoshop",
+  "rootPackage": "uitest",
+  "targetFramework": "unittest",
+  "targetLanguage": "python",
+  "testFolder": "tests",
+  "version": "1.6.0"
+}
