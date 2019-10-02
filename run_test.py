@@ -42,6 +42,9 @@ def main():
         # discover looks by default for files named in the pattern test_*
         testsuite = loader.discover("./tests", "*.py")
 
+    if not os.path.exists("temp-reports"):
+        os.mkdir("temp-reports")
+
     # JUnit reports generated in test-reports folder
     with open(
             os.path.join("temp-reports/",
