@@ -21,7 +21,9 @@ Ranorex Webtestit is a lightweight IDE optimized for building UI web tests with 
 ## Other samples
 
 * [Java Demoshop](https://github.com/rxse/java-demoshop)
+* [Java Data driven sample](https://github.com/rxse/java-data-driven-sample)
 * [TypeScript Demoshop](https://github.com/rxse/ts-demoshop)
+* [Python Data-driven Sample](https://github.com/rxse/python-data-driven-sample.git)
 
 ## License
 
