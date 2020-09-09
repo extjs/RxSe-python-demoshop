@@ -1,4 +1,4 @@
-# Ranorex Webtestit Page Object File
+# Sencha WebTestIt Page Object File
 
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
@@ -11,7 +11,7 @@ class ConfirmationPo:
     # Additional data: {"img":"screenshots/8c3b988e-a863-d385-7605-f9a60b6bdbc3.png"}
     _total_amount = (By.CSS_SELECTOR, "tfoot tr:nth-of-type(3) .woocommerce-Price-amount")
     """
-    NOTE: Use Ranorex Selocity or the Elements Panel to generate element code
+    NOTE: Use Sencha to generate element code
     """
     def __init__(self, driver):
         self.driver = driver

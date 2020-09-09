@@ -1,4 +1,4 @@
-# Ranorex Webtestit Page Object File
+# Sencha WebTestIt Page Object File
 
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
@@ -19,7 +19,7 @@ class CheckoutPo:
     _woocommerce_checkout_place_order = (By.CSS_SELECTOR,
                                          "[value='Place order']")
     """
-    NOTE: Use Ranorex Selocity or the Elements Panel to generate element code
+    NOTE: Use Sencha to generate element code
     """
     def __init__(self, driver):
         self.driver = driver

@@ -1,4 +1,4 @@
-# Ranorex Webtestit Test File
+# Sencha WebTestIt Test File
 
 from utils.base_test import BaseTest
 from pageobjects.items_overview_po import ItemsOverviewPo
