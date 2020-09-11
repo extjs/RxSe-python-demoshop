@@ -1,4 +1,4 @@
-# Ranorex Webtestit Page Object File
+# Sencha WebTestIt Page Object File
 
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
@@ -20,7 +20,7 @@ class ItemsOverviewPo:
     _item_3_view_cart_button = (By.CSS_SELECTOR, "[title='View cart']")
     _blocker = (By.CSS_SELECTOR, ".blockOverla")
     """
-    NOTE: Use Ranorex Selocity or the Elements Panel to generate element code
+    NOTE: Use Sencha to generate element code
     """
     def __init__(self, driver):
         self.driver = driver

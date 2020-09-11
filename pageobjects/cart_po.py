@@ -1,4 +1,4 @@
-# Ranorex Webtestit Page Object File
+# Sencha WebTestIt Page Object File
 
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
@@ -12,7 +12,7 @@ class CartPo:
     # Additional data: {"img":"screenshots/df6602e4-0a91-165e-d8b6-29fd07c116f7.png"}
     _proceed_to_checkout = (By.CSS_SELECTOR, ".checkout-button")
     """
-    NOTE: Use Ranorex Selocity or the Elements Panel to generate element code
+    NOTE: Use Sencha to generate element code
     """
     def __init__(self, driver):
         self.driver = driver

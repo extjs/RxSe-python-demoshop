@@ -28,7 +28,7 @@ def create_test_suite_from_grep(loader, grep):
 
 def main():
     parser = argparse.ArgumentParser(
-        description='Ranorex Webtestit Python scaffold')
+        description='Sencha WebTestIt Python scaffold')
     parser.add_argument("--specs", type=str)
     parser.add_argument("--grep", type=str)
     args = parser.parse_args()

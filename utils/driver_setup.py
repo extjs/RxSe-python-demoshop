@@ -108,9 +108,7 @@ class DriverSetup():
         chrome_options.headless = os.environ.get(
             "RX_ENDPOINT_HEADLESS") == "True"
         if os.environ.get(
-                "RX_DEBUG") == "True" and "RX_SELOCITYPATH" in os.environ:
-            chrome_options.add_argument("--load-extension=" +
-                                        os.environ.get("RX_SELOCITYPATH"))
+                "RX_DEBUG") == "True"
             chrome_options.add_argument("--auto-open-devtools-for-tabs")
             chrome_options.add_experimental_option(
                 "prefs",
